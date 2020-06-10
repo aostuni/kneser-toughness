@@ -1,0 +1,10 @@
+32
+62
+3 edges
+possibilities: 10662
+neighborhood edges: 90
+
+4 edges
+possibilities: 3469136
+neighborhood edges: 116
+
