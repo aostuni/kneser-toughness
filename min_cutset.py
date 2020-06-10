@@ -153,7 +153,7 @@ print(min_edges)
 
 
 # better edge_2 for K(n, 4) where n <= 11 from casework by hand
-assert n >= 11 and r == 4
+assert n <= 10 and r == 4
 
 data = {
     (1, 5, 9, 10): [(2, 3, 6, 11), (2, 3, 4, 6), (2, 3, 6, 7)],
