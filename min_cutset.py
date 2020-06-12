@@ -153,7 +153,7 @@ print(min_edges)
 
 
 # better edge_2 for K(n, 4) where n <= 11 from casework by hand
-assert n >= 11 and r == 4
+assert n <= 11 and r == 4
 
 data = {
     (1, 5, 9, 10): [(2, 3, 6, 11), (2, 3, 4, 6), (2, 3, 6, 7)],
@@ -191,7 +191,7 @@ print(min_edges)
 # In[19]:
 
 
-m = 3
+m = 4
 a = [set(), edge_1, edge_2]  # possibilities of i <= m edges
 for i in range(3, m + 1):
     print(str(i) + " edges")
@@ -215,6 +215,8 @@ for i in range(3, m + 1):
 
     print()
 
+if __name__ == "__main__":
+    print("Done")
 
 # In[ ]:
 
