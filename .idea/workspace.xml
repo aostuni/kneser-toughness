@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b8080fdd-3877-440f-b0af-b61d0753b8a1" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/EdgeCount.nb" beforeDir="false" afterPath="$PROJECT_DIR$/EdgeCount.nb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MaxEdges.nb" beforeDir="false" afterPath="$PROJECT_DIR$/MaxEdges.nb" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JupyterTrust" id="36aa13aa-30c1-4792-9a9b-a0321c8eaf02" />
+  <component name="ProjectId" id="1d6FJ9CZBNDpiTgiexsZGktMf9D" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunManager">
+    <configuration name="min_cutset" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="kneser-toughness" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/min_cutset.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.min_cutset" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Update min_cutset.ipynb to count edges in induced subgraph of neighborhood of m K_2's." />
+    <option name="LAST_COMMIT_MESSAGE" value="Update min_cutset.ipynb to count edges in induced subgraph of neighborhood of m K_2's." />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="395" y="3" key="CommitChangelistDialog2" timestamp="1591739050184">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="395" y="3" key="CommitChangelistDialog2/0.0.1536.864@0.0.1536.864" timestamp="1591739050184" />
+    <state width="1493" height="223" key="GridCell.Tab.0.bottom" timestamp="1591824283653">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1493" height="223" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1591824283653" />
+    <state width="1493" height="223" key="GridCell.Tab.0.center" timestamp="1591824283653">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1493" height="223" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1591824283653" />
+    <state width="1493" height="223" key="GridCell.Tab.0.left" timestamp="1591824283653">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1493" height="223" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1591824283653" />
+    <state width="1493" height="223" key="GridCell.Tab.0.right" timestamp="1591824283653">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1493" height="223" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1591824283653" />
+    <state x="361" y="165" key="Vcs.Push.Dialog.v2" timestamp="1591739052060">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="361" y="165" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1591739052060" />
+    <state x="579" y="346" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1591824107793">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="579" y="346" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.864@0.0.1536.864" timestamp="1591824107793" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/kneser_toughness$min_cutset.coverage" NAME="min_cutset Coverage Results" MODIFIED="1591824145152" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+</project>
