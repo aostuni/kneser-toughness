@@ -1,6 +1,6 @@
 import re
 
-from math import comb, ceil, floor
+from math import comb
 
 
 def cascade(n, i):
@@ -26,21 +26,27 @@ def kruskal_katona(n, i, r):
 
 
 if __name__ == "__main__":
-    # for c in range(5, 13):
-    #     lo = c + 1
-    #     hi = ceil(4 * c / 3) - 1
-    #     for S in range(lo, hi + 1):
-    #         print(kruskal_katona(3 * c - 2 * S, 4, 1) <= S)
+    # print(kruskal_katona(14, 5, 2))
 
-    # print(kruskal_katona(10, 4, 1))
+    # print(kruskal_katona(84, 7, 3))
 
-    cnt = 0
-    f = open("C:\\Users\\Davin Park\\Documents\\partitions.txt")
-    for line in f:
-        partition = [int(s) for s in re.findall(r'\d+', line)]
-        S = 126 - sum(partition)
-        c = len(partition)
-        if kruskal_katona(partition.count(1), 5, 1) <= S and kruskal_katona(partition.count(1) + partition.count(2), 5, 1) - partition.count(2) <= S:
-            print(partition)
-            cnt += 1
-    print(cnt)
+    print(kruskal_katona(123, 8, 4))
+
+    # cnt = 0
+    # f = open("C:\\Users\\Davin Park\\Documents\\partitions.txt")
+    # for line in f:
+    #     partition = [int(s) for s in re.findall(r'\d+', line)]
+    #     S = 126 - sum(partition)
+    #     c = len(partition)
+    #     x = partition.count(1)
+    #     y = partition.count(2)
+    #     flag = True
+    #     if kruskal_katona(x, 5, 1) > S:
+    #         flag = False
+    #     for i in range(y):
+    #         if kruskal_katona(x + i, 5, 1) - i > S:
+    #             flag = False
+    #     if flag:
+    #         print(partition)
+    #         cnt += 1
+    # print(cnt)
